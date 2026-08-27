@@ -1,0 +1,9 @@
+@if(product(); as p)
+{
+    <h1>{{p.name}}</h1>
+    <p>{{p.description}}</p>
+    <p>{{p.price}} Ft</p>
+} @else {
+    <p>Nem található termék</p>
+}
+<button [routerLink]="'/products'">Vissza a főoldalra</button>
