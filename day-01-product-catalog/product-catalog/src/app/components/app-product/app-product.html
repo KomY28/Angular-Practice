@@ -1,0 +1,12 @@
+<form [formGroup]="form" (ngSubmit)="addProduct()">
+    <input type="text" formControlName="name">
+    <input type="number" formControlName="price">
+    <input type="text" formControlName="description">
+
+    <button type="submit">
+        Save
+    </button>
+
+</form>
+
+<button [routerLink]="'/products'">Vissza</button>
