@@ -9,6 +9,7 @@ This is a learning log — I'm practicing Angular as a junior developer under th
 | Day | Project | What it covered |
 |-----|---------|------------------|
 | [Day 1](./day-01-product-catalog/product-catalog) | Product Catalog | Signal-based state management in a service (`signal`, `asReadonly`), standalone components, `@for`/`@if` control flow, dynamic `routerLink` (array syntax), routing (`/products`, `/products/:id`, wildcard route), `input()` route param binding (`withComponentInputBinding`), `computed()` signal combined with a service call |
+| [Day 2](./day-02-product-catalog/product-catalog) | Product Catalog — CRUD | Adding/removing items with signals (`.update()` vs `.set()`), reliable ID generation (`map` + `Math.max` + spread), Reactive Forms (`FormGroup`, `FormControl`, `Validators.required`, `ReactiveFormsModule`), `(ngSubmit)` event binding, TypeScript type conversions (`as` vs `Number()`) |
 
 ## How I'm learning
 
@@ -20,6 +21,7 @@ At the end of each session I write a short summary of the harder, newly learned 
 - TypeScript
 - Signals (`signal`, `computed`, `input`)
 - Angular Router (modern control flow, component input binding)
+- Reactive Forms
 
 ## Running a daily project
 
