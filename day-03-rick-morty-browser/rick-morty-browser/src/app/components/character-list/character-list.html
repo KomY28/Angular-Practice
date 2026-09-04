@@ -1,0 +1,15 @@
+@if (characterServices.charactersData.isLoading()) {
+    <p>Betöltés...</p>
+}
+@if (characterServices.charactersData.value(); as data){
+    @for (item of data.results; track item.id) {
+       <div>
+        {{item.name}}
+       </div>
+       <img [src]="item.image" alt="{{item.name}}" [routerLink]="['/characters/',item.id]">
+    }
+}
+@if(characterServices.charactersData.error())
+{
+    <p>Hiba történt a szerverrel kapcsólódás során, nézz vissza később!</p>
+}
