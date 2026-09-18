@@ -1,0 +1,5 @@
+@for (item of this.todoService.todosPub(); track item.id) 
+{
+    <p>{{item.title}}</p>
+    <button (click)="todoService.deleteTodos(item.id)">Törlés</button>
+}
