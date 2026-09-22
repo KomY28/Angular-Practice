@@ -1,4 +1,4 @@
-# Angular Practice 🎓
+# Angular Practice 
 
 This is a learning log — I'm practicing Angular as a junior developer under the guidance of a senior mentor, 3 times a week. Each session I get a small project to solve on my own, then we review and fix it step by step.
 
