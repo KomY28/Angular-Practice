@@ -1,6 +1,6 @@
 # Angular Practice 
 
-This is a learning log — I'm practicing Angular as a junior developer under the guidance of a senior mentor, 3 times a week. Each session I get a small project to solve on my own, then we review and fix it step by step.
+This is a learning log — I'm practicing Angular as a junior developer under the guidance of a senior mentor, 2-3 times a week. Each session I get a small project to solve on my own, then we review and fix it step by step.
 
 **Goal:** to confidently use modern Angular (signals, standalone components, the new control flow) at a junior level.
 
@@ -12,6 +12,7 @@ This is a learning log — I'm practicing Angular as a junior developer under th
 | [Day 2](./day-02-product-catalog/product-catalog) | Product Catalog — CRUD | Adding/removing items with signals (`.update()` vs `.set()`), reliable ID generation (`map` + `Math.max` + spread), Reactive Forms (`FormGroup`, `FormControl`, `Validators.required`, `ReactiveFormsModule`), `(ngSubmit)` event binding, TypeScript type conversions (`as` vs `Number()`) |
 | [Day 3](./day-03-rick-morty-browser/rick-morty-browser) | Rick and Morty Browser | Real HTTP requests with `httpResource()` against a public API (rickandmortyapi.com), `provideHttpClient()`, loading/success/error state handling (`.isLoading()`, `.value()`, `.error()`), dynamic resource URLs with template literals, reactive re-fetching driven by route param `input()` |
 | [Day 4](./day-04-todo-app-api/todo-app-api) | Todo App (API) | HTTP write operations with `HttpClient` (POST, DELETE) against JSONPlaceholder, the Observable + `.subscribe()` pattern, combining HTTP calls with signal state (`.update()` vs `.set()` for server-driven data), lifting shared state from a component into a service, adding items via Reactive Forms backed by a real API call |
+| [Day 5](./day-05-expense-tracker/expense-tracker) | Expense Tracker (ongoing, multi-day) | First day of a multi-session project. `localStorage` persistence (constructor-driven load, `JSON.stringify`/`JSON.parse`, a shared `saveToLocalStorage()` helper called after every mutation), the `constructor` as a service's "on-create" hook, the `currency` pipe, form-to-model type conversions including `string → Date` (`new Date(value as string)`) |
 
 ## How I'm learning
 
@@ -25,6 +26,7 @@ At the end of each session I write a short summary of the harder, newly learned 
 - Angular Router (modern control flow, component input binding)
 - Reactive Forms
 - HTTP (`HttpClient`, public REST APIs, Observables)
+- Browser storage (`localStorage`)
 
 ## Running a daily project
 
