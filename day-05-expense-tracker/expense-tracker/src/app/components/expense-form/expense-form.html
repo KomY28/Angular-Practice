@@ -1,0 +1,9 @@
+<form [formGroup]="form" (ngSubmit)="addExpense()">
+    <label for="title">Title:</label>
+    <input type="text" formControlName="title">
+    <label for="amount">Amount:</label>
+    <input type="number" formControlName="amount">
+    <label for="date">Date:</label>
+    <input type="date" formControlName="date">
+    <button type="submit">Save</button>
+</form>

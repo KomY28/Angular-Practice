@@ -1,0 +1,6 @@
+@for (item of expenseService.expensePub(); track item.id) 
+{
+    <h1>{{item.title}}</h1>
+    <p>{{item.amount |currency: 'HUF'}}</p>
+    <button (click)="expenseService.deleteExpense(item.id)">Törlés</button>
+}
